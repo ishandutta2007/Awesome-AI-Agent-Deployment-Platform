@@ -1,6 +1,14 @@
+![Awesome AI Agent Deployment Banner](assets/banner.svg)
+
 # Awesome-AI-Agent-Deployment-Platform
-## Top AI Agent Deployment Platforms Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+
+<div align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
+
+## 🚀 Top AI Agent Deployment Platforms Ecosystem
+**Curated List of SaaS Products & Open-Source GitHub Projects for AI Agent Orchestration, Deployment, and Management**
 *Focused on Building, Deploying, Orchestrating & Observing Production AI Agents*
 **Last updated: July 2026**
 
@@ -18,9 +26,9 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms (Enterprise AI Agents)
 
-### Core Platforms (AI Agent Deployment & Orchestration)
+### 🎯 Core Platforms (AI Agent Deployment & Orchestration)
 - **[AgentOps](https://www.agentops.ai/)**
   Leading developer platform for tracing, debugging, cost tracking, and deploying reliable AI agents with two-line SDK integration across 400+ LLMs and frameworks.
 - **[LangGraph Platform / LangSmith Deployment](https://www.langchain.com/)**
@@ -42,12 +50,12 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - **[AutoGen Studio (Microsoft)](https://microsoft.github.io/autogen/)**
   Low-code interface and managed tooling layered on AutoGen/AG2 for multi-agent conversation systems (research and enterprise Azure paths).
 
-### Additional Strong Hosted Options
+### 🌟 Additional Strong Hosted Options
 - **LangSmith** (observability + deployment layer for LangChain/LangGraph ecosystems).
 - **CrewAI Factory** (self-managed enterprise deployment of CrewAI on customer VPC/K8s).
 - **Various cloud vendor agent runtimes** (AWS Bedrock Agents / AgentCore, Google Vertex AI Agent Builder, Microsoft Copilot Studio / Foundry Agent Service).
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects (Self-Hosted AI Agents)
 
 - **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
   ](https://github.com/n8n-io/n8n/stargazers)
@@ -140,7 +148,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 **Frameworks for building custom systems**: Combine **LangGraph** or **CrewAI** + **Dify/Flowise/Langflow** for visual layers + **Letta** or **Mem0** for memory + **Langfuse/AgentOps** for observability + **n8n** or Kubernetes for deployment — fully self-hosted production agent platforms.
 
-## How to Contribute
+## 🤝 How to Contribute
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
@@ -148,7 +156,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 Star the repo if you find it useful!
 
-## Disclaimer
+
+## 📈 Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-AI-Agent-Deployment-Platform&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-AI-Agent-Deployment-Platform&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-AI-Agent-Deployment-Platform&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-AI-Agent-Deployment-Platform&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+## ⚠️ Disclaimer
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - AI agent platforms must comply with relevant regulations, data privacy laws, and organizational security policies.
 - Self-hosted open-source solutions require proper security hardening, monitoring, cost controls, and reliability engineering for production use.
