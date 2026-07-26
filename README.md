@@ -49,46 +49,86 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Open-Source GitHub Projects
 
-- **[LangGraph](https://github.com/langchain-ai/langgraph)**
-  Production-grade graph-based framework for building stateful, durable, multi-agent workflows with checkpointing, human-in-the-loop, and streaming (MIT).
-- **[CrewAI](https://github.com/crewAIInc/crewAI)**
-  Role-based multi-agent orchestration framework for collaborative “crews” of specialized agents; lowest barrier to multi-agent systems (MIT).
-- **[Dify](https://github.com/langgenius/dify)**
-  Full open-source LLM application platform with visual workflow builder, RAG pipelines, agent support, and self-hostable production stack (Apache 2.0 with restrictions).
-- **[Flowise](https://github.com/FlowiseAI/Flowise)**
-  Open-source low-code visual builder on top of LangChain for drag-and-drop agents, chatflows, RAG, and multi-agent systems (Apache 2.0).
-- **[AutoGen / AG2](https://github.com/microsoft/autogen)**
-  Conversational multi-agent framework from Microsoft Research for agent collaboration, debate, and tool use (MIT; evolving into Microsoft Agent Framework paths).
-- **[Letta (formerly MemGPT)](https://github.com/letta-ai/letta)**
-  Open-source framework and server for stateful agents with advanced hierarchical memory management that extends context beyond model limits (Apache 2.0).
-- **[Langflow](https://github.com/langflow-ai/langflow)**
-  Visual, low-code platform for building multi-agent and RAG workflows with Python extensibility and self-hosting (MIT).
-- **[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)**
-  Open-source autonomous agent platform with GUI, toolkits, memory, agent marketplace, and infrastructure for running multiple agents.
-- **[AgentOps SDK](https://github.com/AgentOps-AI/agentops)**
-  Open-source observability SDK for tracing, debugging, cost tracking, and replaying AI agent runs across major frameworks.
-- **[n8n](https://github.com/n8n-io/n8n)**
+- **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+  ](https://github.com/n8n-io/n8n/stargazers)
+  ](https://github.com/n8n-io/n8n/stargazers)
   Fair-code workflow automation platform with strong AI/agent nodes, MCP support, and self-hostable orchestration for agentic pipelines.
-- **[Agno](https://github.com/agno-agi/agno)**
-  High-performance agent framework and AgentOS runtime focused on multi-agent teams, memory, and production deployment (Apache 2.0).
-- **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)**
-  Lightweight official SDK for building multi-agent workflows with handoffs, tools, and tracing (open source, OpenAI-centric).
-- **[smolagents](https://github.com/huggingface/smolagents)**
-  Minimal, code-centric agent framework from Hugging Face emphasizing simplicity, code execution, and lightweight orchestration.
-- **[Mastra](https://github.com/mastra-ai/mastra)**
-  TypeScript-native agent framework and workflow engine designed for modern web stacks with strong observability and deployment support.
-- **[LlamaIndex Agents / Workflows](https://github.com/run-llama/llama_index)**
+- **[Langflow](https://github.com/langflow-ai/langflow)** [![Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers)
+  ](https://github.com/langflow-ai/langflow/stargazers)
+  ](https://github.com/langflow-ai/langflow/stargazers)
+  Visual, low-code platform for building multi-agent and RAG workflows with Python extensibility and self-hosting (MIT).
+- **[Dify](https://github.com/langgenius/dify)** [![Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)
+  ](https://github.com/langgenius/dify/stargazers)
+  ](https://github.com/langgenius/dify/stargazers)
+  Full open-source LLM application platform with visual workflow builder, RAG pipelines, agent support, and self-hostable production stack (Apache 2.0 with restrictions).
+- **[AutoGen / AG2](https://github.com/microsoft/autogen)** [![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers)
+  ](https://github.com/microsoft/autogen/stargazers)
+  ](https://github.com/microsoft/autogen/stargazers)
+  Conversational multi-agent framework from Microsoft Research for agent collaboration, debate, and tool use (MIT; evolving into Microsoft Agent Framework paths).
+- **[CrewAI](https://github.com/crewAIInc/crewAI)** [![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers)
+  ](https://github.com/crewAIInc/crewAI/stargazers)
+  ](https://github.com/crewAIInc/crewAI/stargazers)
+  Role-based multi-agent orchestration framework for collaborative “crews” of specialized agents; lowest barrier to multi-agent systems (MIT).
+- **[Flowise](https://github.com/FlowiseAI/Flowise)** [![Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)
+  ](https://github.com/FlowiseAI/Flowise/stargazers)
+  ](https://github.com/FlowiseAI/Flowise/stargazers)
+  Open-source low-code visual builder on top of LangChain for drag-and-drop agents, chatflows, RAG, and multi-agent systems (Apache 2.0).
+- **[LlamaIndex Agents / Workflows](https://github.com/run-llama/llama_index)** [![Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
+  ](https://github.com/run-llama/llama_index/stargazers)
+  ](https://github.com/run-llama/llama_index/stargazers)
   Data framework with powerful agent and workflow abstractions, strong RAG + agent combinations, and production patterns.
-- **[MetaGPT](https://github.com/geekan/MetaGPT)**
-  Multi-agent framework that simulates software company roles (PM, architect, engineer, QA) for end-to-end code generation and SOP-driven collaboration.
-- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)**
-  Open-source autonomous coding agent platform for software engineering tasks with strong self-hosting and tool use.
-- **[AgentScope](https://github.com/agentscope-ai/agentscope)**
-  Production-oriented multi-agent framework with actor model, observability, and distributed execution support.
-- **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)**
+- **[Agno](https://github.com/agno-agi/agno)** [![Stars](https://img.shields.io/github/stars/agno-agi/agno?style=social&color=white)](https://github.com/agno-agi/agno/stargazers)
+  ](https://github.com/agno-agi/agno/stargazers)
+  ](https://github.com/agno-agi/agno/stargazers)
+  High-performance agent framework and AgentOS runtime focused on multi-agent teams, memory, and production deployment (Apache 2.0).
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** [![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)
+  ](https://github.com/langchain-ai/langgraph/stargazers)
+  ](https://github.com/langchain-ai/langgraph/stargazers)
+  Production-grade graph-based framework for building stateful, durable, multi-agent workflows with checkpointing, human-in-the-loop, and streaming (MIT).
+- **[smolagents](https://github.com/huggingface/smolagents)** [![Stars](https://img.shields.io/github/stars/huggingface/smolagents?style=social&color=white)](https://github.com/huggingface/smolagents/stargazers)
+  ](https://github.com/huggingface/smolagents/stargazers)
+  ](https://github.com/huggingface/smolagents/stargazers)
+  Minimal, code-centric agent framework from Hugging Face emphasizing simplicity, code execution, and lightweight orchestration.
+- **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** [![Stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social&color=white)](https://github.com/microsoft/semantic-kernel/stargazers)
+  ](https://github.com/microsoft/semantic-kernel/stargazers)
+  ](https://github.com/microsoft/semantic-kernel/stargazers)
   Microsoft open-source SDK for building AI agents and orchestration, especially strong in enterprise/.NET and Azure environments.
-- **[Pydantic AI](https://github.com/pydantic/pydantic-ai)**
+- **[AgentScope](https://github.com/agentscope-ai/agentscope)** [![Stars](https://img.shields.io/github/stars/agentscope-ai/agentscope?style=social&color=white)](https://github.com/agentscope-ai/agentscope/stargazers)
+  ](https://github.com/agentscope-ai/agentscope/stargazers)
+  ](https://github.com/agentscope-ai/agentscope/stargazers)
+  Production-oriented multi-agent framework with actor model, observability, and distributed execution support.
+- **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** [![Stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=social&color=white)](https://github.com/openai/openai-agents-python/stargazers)
+  ](https://github.com/openai/openai-agents-python/stargazers)
+  ](https://github.com/openai/openai-agents-python/stargazers)
+  Lightweight official SDK for building multi-agent workflows with handoffs, tools, and tracing (open source, OpenAI-centric).
+- **[Mastra](https://github.com/mastra-ai/mastra)** [![Stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=social&color=white)](https://github.com/mastra-ai/mastra/stargazers)
+  ](https://github.com/mastra-ai/mastra/stargazers)
+  ](https://github.com/mastra-ai/mastra/stargazers)
+  TypeScript-native agent framework and workflow engine designed for modern web stacks with strong observability and deployment support.
+- **[Letta (formerly MemGPT)](https://github.com/letta-ai/letta)** [![Stars](https://img.shields.io/github/stars/letta-ai/letta?style=social&color=white)](https://github.com/letta-ai/letta/stargazers)
+  ](https://github.com/letta-ai/letta/stargazers)
+  ](https://github.com/letta-ai/letta/stargazers)
+  Open-source framework and server for stateful agents with advanced hierarchical memory management that extends context beyond model limits (Apache 2.0).
+- **[Pydantic AI](https://github.com/pydantic/pydantic-ai)** [![Stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=social&color=white)](https://github.com/pydantic/pydantic-ai/stargazers)
+  ](https://github.com/pydantic/pydantic-ai/stargazers)
+  ](https://github.com/pydantic/pydantic-ai/stargazers)
   Type-safe, structured agent framework built on Pydantic for reliable, production-ready agent development in Python.
+- **[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)** [![Stars](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=social&color=white)](https://github.com/TransformerOptimus/SuperAGI/stargazers)
+  ](https://github.com/TransformerOptimus/SuperAGI/stargazers)
+  ](https://github.com/TransformerOptimus/SuperAGI/stargazers)
+  Open-source autonomous agent platform with GUI, toolkits, memory, agent marketplace, and infrastructure for running multiple agents.
+- **[AgentOps SDK](https://github.com/AgentOps-AI/agentops)** [![Stars](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social&color=white)](https://github.com/AgentOps-AI/agentops/stargazers)
+  ](https://github.com/AgentOps-AI/agentops/stargazers)
+  ](https://github.com/AgentOps-AI/agentops/stargazers)
+  Open-source observability SDK for tracing, debugging, cost tracking, and replaying AI agent runs across major frameworks.
+- **[MetaGPT](https://github.com/geekan/MetaGPT)** [![Stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=social&color=white)](https://github.com/geekan/MetaGPT/stargazers)
+  ](https://github.com/geekan/MetaGPT/stargazers)
+  ](https://github.com/geekan/MetaGPT/stargazers)
+  Multi-agent framework that simulates software company roles (PM, architect, engineer, QA) for end-to-end code generation and SOP-driven collaboration.
+- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** [![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers)
+  ](https://github.com/All-Hands-AI/OpenHands/stargazers)
+  ](https://github.com/All-Hands-AI/OpenHands/stargazers)
+  Open-source autonomous coding agent platform for software engineering tasks with strong self-hosting and tool use.
 
 ### Additional Strong Open-Source Options
 - **LangChain** core libraries and ecosystem tools for chains, tools, and agent primitives.
