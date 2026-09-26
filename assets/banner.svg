@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#3b82f6" />
+      <animate attributeName="x1" values="0%;20%;0%" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="0%;20%;0%" dur="5s" repeatCount="indefinite" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" rx="15" fill="url(#bg-grad)" />
+
+  <!-- Animated nodes/dots -->
+  <g fill="#60a5fa" filter="url(#glow)">
+    <circle cx="100" cy="50" r="4">
+      <animate attributeName="cy" values="50;30;50" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="700" cy="150" r="6">
+      <animate attributeName="cy" values="150;170;150" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="160" r="5">
+      <animate attributeName="cy" values="160;140;160" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="650" cy="60" r="4">
+      <animate attributeName="cy" values="60;40;60" dur="6s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="95" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+    Awesome AI Agent Deployment
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" />
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="135" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#bfdbfe" text-anchor="middle" font-weight="300" letter-spacing="0.5">
+    Production Platforms, Orchestration &amp; Open-Source Tools
+  </text>
+</svg>
