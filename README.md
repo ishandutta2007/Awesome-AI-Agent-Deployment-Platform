@@ -33,6 +33,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 | Platform | Company Size (Valuation / Funding) | Starting Tier Pricing | Free Tier Limit | Description |
 | :--- | :--- | :--- | :--- | :--- |
+| **[Tale](https://tale.dev/)** | Not publicly stated | Not publicly stated | Not publicly stated | Shared workspace for assigning reusable AI agents, running coding harnesses in sandboxes, and reviewing deliverables. |
 | **[LangGraph Platform / LangSmith](https://www.langchain.com/)** | **$1.25B Valuation** ($260M raised) | $39/user/month (Plus Plan) | 5,000 traces/month (1 seat, 14-day retention) | Managed infrastructure for deploying, scaling, and monitoring stateful LangGraph agents with Studio, hybrid/self-hosted options, and deep observability. |
 | **[Dify Cloud](https://dify.ai/)** | **$180M Valuation** ($41.5M raised) | $59/month (Professional Plan) | 200 message credits (50 docs, 50MB storage, 1 seat) | Production LLM app and agent platform with visual workflows, RAG, agent capabilities, and hosted deployment options. |
 | **[Letta Cloud](https://www.letta.com/)** | **$70M Valuation** ($10M raised) | $20/month (Pro Plan) | Free Personal tier with basic agent slots & rotating models | Managed platform for stateful agents with advanced long-term memory (formerly MemGPT), self-improving agents, and agent servers. |
